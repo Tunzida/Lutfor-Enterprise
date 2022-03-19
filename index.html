@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!-- Bootstrap stylelink-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Custom style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger p-2 text-white" style="--bs-bg-opacity: .5;">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#backpack">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <br>
+        <!--images slider-->
+        <section class="container bg-success p-2 text-dark bg-opacity-25">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner p-5">
+              <div class="carousel-item active">
+                <div class="row orange-bg d-flex align-items-center rounded-3">
+                  <div class="col-lg-7">
+                    <h1>Hamko Battery HPD-165</h1>
+                    <p>
+                        আমাদের এখানে ভেটারি কম দামে পাওয়া যায় 
+                    </p>
+                    <h1 class="price">8000tk-14500tk</h1>
+                    <button class="btn btn-info">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="images/1.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row orange-bg d-flex align-items-center">
+                      <div class="col-lg-7">
+                        <h1>Hamko IPS 1000-VAZ</h1>
+                        <p>
+                            আমাদের এখানে আইপিএস  কম দামে পাওয়া যায় .
+                        </p>
+                        <h1 class="price">8000tk-14000tk</h1>
+                        <button class="btn btn-info">Buy Now</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img
+                          src="images/11IPS.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                 </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row orange-bg d-flex align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Mishuk Gari Haf Chad 5 Sit</h1>
+                    <p>
+                        আমাদের এখানে অটোরিকসা কম দামে পাওয়া যায়.
+                    </p>
+                    <h1 class="price">53000tk-120000tk</h1>
+                    <button class="btn btn-info">Buy Now</button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="images/12ricksha.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </header>
+      <!--Main section-->
+      <main>
+          <!--Categories-->
+          <section class="container my-4" id="home">
+            <div>
+            <h1 class="text-center bg-warning" style="--bs-bg-opacity: .5;">আমাদের পণ্য</h1>
+            <p1 class="">এখানে উন্নতমানের ব্যাটারী চালিত ইজিবাইক , মিশুক ,আইপিএস ও অটোরিকশা  এবং ব্যাটারী সহ বিভিন্ন প্রকার পার্টস সূল্ভ দামে পাওয়া যায় 
+              এই সব পণ্য কিনতে আমাদের ঠিকানায় চলে আসুন  করুন অথবা আমাদের দয়া ফোন নম্বর এ যোগাযোক করুন</p1>
+              </div>
+              <br>
+              <h2>Battery</h2>
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery HPD-165</h3>
+                                <h5 class="text-center">Battery</h4>
+                                <h2 class="price text-center">14500tk</h1>
+                              </div>
+                              <div class="m-4">
+                               <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery HPD-130</h3>
+                                <h5 class="text-center">Battery</h4>
+                                <h2 class="price text-center">12000tk</h1>
+                              </div>
+                              <div class="m-4">
+                                  <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery HPD-100</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">11000tk</h2>
+                              </div>
+                              <div class="m-4">
+                              <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+          </section>
+                  <section class="container my-4">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery HPD-80</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">8000tk</h2>
+                              </div>
+                              <div class="m-4">
+                               <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/2vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery PCV-29</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">13500tk</h2>
+                              </div>
+                              <div class="m-4">
+                                  <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/2vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery PCV-27</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">12500tk</h2>
+                              </div>
+                              <div class="m-4">
+                              <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </section>
+                  <section class="container my-4">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/2vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery PCV-21</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">11500tk</h2>
+                              </div>
+                              <div class="m-4">
+                               <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/2vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery PCV-17</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">9000tk</h2>
+                              </div>
+                              <div class="m-4">
+                                  <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/3vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NS-60L</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">5000tk</h2>
+                              </div>
+                              <div class="m-4">
+                              <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </section>
+                  <section class="container my-4">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/4vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NS-40ZL</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">3700tk</h2>
+                              </div>
+                              <div class="m-4">
+                               <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/5vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NS-50</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">6000tk</h2>
+                              </div>
+                              <div class="m-4">
+                                  <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/5vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NS-50ZL</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">6000tk</h2>
+                              </div>
+                              <div class="m-4">
+                              <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </section>
+                  <section class="container my-4">
+                      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/6vettery.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NS-70</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">6500tk</h2>
+                              </div>
+                              <div class="m-4">
+                               <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/21.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title text-center">Hamko Battery NX-120-7</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">8000tk</h2>
+                              </div>
+                              <div class="m-4">
+                                  <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col bg-warning">
+                            <div class="card border-0 shadow-lg h-100">
+                              <img src="images/20.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h4 class="card-title">Hamko Battery EV-200</h4>
+                                <h5 class="text-center">Battery</h5>
+                                <h2 class="price text-center">11000tk</h2>
+                              </div>
+                              <div class="m-4">
+                              <button class="btn btn-info">Call Now</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+      </section>
+         <section class="container my-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col bg-warning">
+       <div class="card border-0 shadow-lg h-100">
+       <img src="images/20.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <h4 class="card-title text-center">Hamko Battery Mishuk-230</h4>
+      <h5 class="text-center">Battery</h5>
+      <h2 class="price text-center">9000tk</h2>
+      </div>
+      <div class="m-4">
+      <button class="btn btn-info">Call Now</button>
+      </div>
+    </div>
+    </div>
+    <div class="col bg-warning">
+    <div class="card border-0 shadow-lg h-100">
+    <img src="images/20.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Hamko Battery Power Bank 130</h4>
+    <h5 class="text-center">Battery</h5>
+    <h2 class="price text-center">7000tk</h2>
+     </div>
+  <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+ </div>
+  </div>
+    <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/8vettery.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title">Hamko Battery 12V 5Amp</h4>
+    <h5 class="text-center">Battery</h5>
+    <h2 class="price text-center">14000tk</h2>
+    </div>
+    <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+    </div>
+    </div>
+    </div>
+  </section>
+   <section class="container my-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col bg-warning">
+       <div class="card border-0 shadow-lg h-100">
+       <img src="images/11IPS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <h4 class="card-title text-center">Hamko IPS 1000-VAZ</h4>
+      <h5 class="text-center">IPS</h5>
+      <h2 class="price text-center">14000tk</h2>
+      </div>
+      <div class="m-4">
+      <button class="btn btn-info">Call Now</button>
+      </div>
+    </div>
+    </div>
+    <div class="col bg-warning">
+    <div class="card border-0 shadow-lg h-100">
+    <img src="images/11IPS.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Hamko IPS 800-VAZ</h4>
+    <h5 class="text-center">IPS</h5>
+    <h2 class="price text-center">13000tk</h2>
+     </div>
+  <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+ </div>
+  </div>
+    <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/11IPS.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title">Hamko IPS 600-VAZ</h4>
+    <h5 class="text-center">Battery</h5>
+    <h2 class="price text-center">10000tk</h2>
+    </div>
+    <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+    </div>
+    </div>
+    </div>
+    </section>
+         <section class="container my-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col bg-warning">
+       <div class="card border-0 shadow-lg h-100">
+       <img src="images/11IPS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <h4 class="card-title text-center">Hamko IPS 400-VAZ</h4>
+      <h5 class="text-center">IPS</h5>
+      <h2 class="price text-center">9000tk</h2>
+      </div>
+      <div class="m-4">
+      <button class="btn btn-info">Call Now</button>
+      </div>
+    </div>
+    </div>
+    <div class="col bg-warning">
+    <div class="card border-0 shadow-lg h-100">
+    <img src="images/38.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Luminous IPS 1050</h4>
+    <h5 class="text-center">IPS</h5>
+    <h2 class="price text-center">13000tk</h2>
+     </div>
+  <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+ </div>
+  </div>
+    <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/8vettery.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title">Hamko Battery 12V 5Amp</h4>
+    <h5 class="text-center">Battery</h5>
+    <h2 class="price text-center">14000tk</h2>
+    </div>
+    <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+    </div>
+    </div>
+    </div>
+    </section>
+     <section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/12ricksha.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Mishuk Gari 5 sit</h4>
+  <h5 class="text-center">Mishuk</h5>
+  <h2 class="price text-center">56000tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/13ricksha.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">Mishuk Galas Gari 5 sit</h4>
+<h5 class="text-center">Mishuk</h5>
+<h2 class="price text-center">70000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/39.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title">Mishuk Gari Haf Chad 5 sit</h4>
+<h5 class="text-center">Mishuk</h5>
+<h2 class="price text-center">58000tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+         <section class="container my-4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col bg-warning">
+       <div class="card border-0 shadow-lg h-100">
+       <img src="images/40.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      <h4 class="card-title text-center">Sandi Eyebaki</h4>
+      <h5 class="text-center">Mishuk</h5>
+      <h2 class="price text-center">120000tk</h2>
+      </div>
+      <div class="m-4">
+      <button class="btn btn-info">Call Now</button>
+      </div>
+    </div>
+    </div>
+    <div class="col bg-warning">
+    <div class="card border-0 shadow-lg h-100">
+    <img src="images/12ricksha.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Mishuk Gari 3 sit Bangla</h4>
+    <h5 class="text-center">Mishuk</h5>
+    <h2 class="price text-center">55000tk</h2>
+     </div>
+  <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+ </div>
+  </div>
+    <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/14ricksha.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title">Valvo Gari 3 sit</h4>
+    <h5 class="text-center">Mishuk</h5>
+    <h2 class="price text-center">53000tk</h2>
+    </div>
+    <div class="m-4">
+ <button class="btn btn-info">Call Now</button>
+  </div>
+    </div>
+    </div>
+    </div>
+    </section>
+     <section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/9powerman.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Power Man Battery EV-200</h4>
+  <h5 class="text-center">Battery</h5>
+  <h2 class="price text-center">11000tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/10powerman.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">PowerMan Mishuk Battery-250</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">9000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/41.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title text-center">Powerplus EV-140</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">11000tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+     <section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/42.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Kungfu Battery-120</h4>
+  <h5 class="text-center">Battery</h5>
+  <h2 class="price text-center">5250tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/30.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">Race Mishuk-360</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">9000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/29.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title text-center">Lucas Y8-9V</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">1800tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+<section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/10-5.00.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Apex 450/10</h4>
+  <h5 class="text-center">Battery</h5>
+  <h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/10-5.00.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">Apex-512</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">1000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/10-5.00.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title text-center">Apex 550/13</h4>
+<h5 class="text-center">Battery</h5>
+<h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+<section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/10-5.00.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Apex-510</h4>
+  <h5 class="text-center">Tube</h5>
+  <h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/7.50-16.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">Apex-408</h4>
+<h5 class="text-center">Tube</h5>
+<h2 class="price text-center">1000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/4.00-8.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title text-center">Apex 750/16</h4>
+<h5 class="text-center">Tube</h5>
+<h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+<section class="container my-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/bk.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h4 class="card-title text-center">Hossain-512</h4>
+  <h5 class="text-center">Tube</h5>
+  <h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+  <button class="btn btn-info">Call Now</button>
+  </div>
+  </div>
+  </div>
+  <div class="col bg-warning">
+  <div class="card border-0 shadow-lg h-100">
+  <img src="images/sky.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+ <h4 class="card-title text-center">Hossain-412</h4>
+<h5 class="text-center">Tube</h5>
+<h2 class="price text-center">1000tk</h2>
+</div>
+<div class="m-4">
+<button class="btn btn-info">Call Now</button>
+</div>
+</div>
+</div>
+<div class="colb bg-warning">
+<div class="card border-0 shadow-lg h-100">
+  <img src="images/22-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+<h4 class="card-title text-center">Hossain-408</h4>
+<h5 class="text-center">Tube</h5>
+<h2 class="price text-center">1000tk</h2>
+  </div>
+  <div class="m-4">
+<button class="btn btn-info">Call Now</button>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+                <!--Subscribe-->
+      <section style="height: 250px;" class="container orange-bg d-flex justify-content-center rounded-3 align-items-center" id="subscribe">
+                   <div>
+                      <h2>LET'S STAY IN TOUCH</h2>
+                      <p class="#subscribe h6">Get updates on sales, specials and more</p>
+                      <input class="form-control" type="text" placeholder="Your Email"><br>
+                      <button class="btn btn-info rounded-3">Submit</button>
+                   </div>
+                </section>
+      </main>
+      <footer class="mt-5 text-center">
+       <p><small>Tunzida Akter|Panda Commerce. All rights reserved|@2022</small></p>
+  
+      </footer>
+      <!--Javascript link-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+</body>
+</html>
